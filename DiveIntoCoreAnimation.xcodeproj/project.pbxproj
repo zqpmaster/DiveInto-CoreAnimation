@@ -17,6 +17,8 @@
 		27F324371B75E65E002B66D3 /* ViewController_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F324361B75E65E002B66D3 /* ViewController_2.m */; };
 		27F3243B1B75E947002B66D3 /* Resource in Resources */ = {isa = PBXBuildFile; fileRef = 27F3243A1B75E947002B66D3 /* Resource */; };
 		27F3243D1B75EB61002B66D3 /* wwdc.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F3243C1B75EB61002B66D3 /* wwdc.png */; };
+		27F324411B760207002B66D3 /* ViewController_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F324401B760207002B66D3 /* ViewController_3.m */; };
+		27F324431B7602F7002B66D3 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F324421B7602F7002B66D3 /* arrow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,9 @@
 		27F324361B75E65E002B66D3 /* ViewController_2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController_2.m; sourceTree = "<group>"; };
 		27F3243A1B75E947002B66D3 /* Resource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resource; sourceTree = "<group>"; };
 		27F3243C1B75EB61002B66D3 /* wwdc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wwdc.png; sourceTree = "<group>"; };
+		27F3243F1B760207002B66D3 /* ViewController_3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController_3.h; sourceTree = "<group>"; };
+		27F324401B760207002B66D3 /* ViewController_3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController_3.m; sourceTree = "<group>"; };
+		27F324421B7602F7002B66D3 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +94,9 @@
 		27F3240D1B710462002B66D3 /* DiveIntoCoreAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				27F3243E1B7601D4002B66D3 /* 3-图层几何学 */,
 				27F3243C1B75EB61002B66D3 /* wwdc.png */,
+				27F324421B7602F7002B66D3 /* arrow.png */,
 				27F324381B75E66B002B66D3 /* 2-寄宿图 */,
 				27F324341B710848002B66D3 /* 1-图层树 */,
 				27F324121B710462002B66D3 /* AppDelegate.h */,
@@ -144,6 +151,15 @@
 				27F324361B75E65E002B66D3 /* ViewController_2.m */,
 			);
 			name = "2-寄宿图";
+			sourceTree = "<group>";
+		};
+		27F3243E1B7601D4002B66D3 /* 3-图层几何学 */ = {
+			isa = PBXGroup;
+			children = (
+				27F3243F1B760207002B66D3 /* ViewController_3.h */,
+				27F324401B760207002B66D3 /* ViewController_3.m */,
+			);
+			name = "3-图层几何学";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27F3243B1B75E947002B66D3 /* Resource in Resources */,
+				27F324431B7602F7002B66D3 /* arrow.png in Resources */,
 				27F3243D1B75EB61002B66D3 /* wwdc.png in Resources */,
 				27F3241A1B710462002B66D3 /* Main.storyboard in Resources */,
 				27F3241F1B710462002B66D3 /* LaunchScreen.xib in Resources */,
@@ -248,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27F324411B760207002B66D3 /* ViewController_3.m in Sources */,
 				27F324171B710462002B66D3 /* ViewController_1.m in Sources */,
 				27F324141B710462002B66D3 /* AppDelegate.m in Sources */,
 				27F324111B710462002B66D3 /* main.m in Sources */,

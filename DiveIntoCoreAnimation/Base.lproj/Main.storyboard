@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="JGu-xd-cEE">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="aBC-NC-ixN">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
@@ -194,6 +194,82 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gHN-mC-ZZp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1225.5" y="294.75"/>
+        </scene>
+        <!--View Controller3-->
+        <scene sceneID="wK0-ET-8SN">
+            <objects>
+                <viewController id="aBC-NC-ixN" customClass="ViewController_3" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VQA-Z3-AjV"/>
+                        <viewControllerLayoutGuide type="bottom" id="wxw-av-Z9g"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uXk-FN-g3t">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vwZ-c8-dAk">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="200" id="3AM-ez-yEl"/>
+                                    <constraint firstAttribute="height" constant="200" id="8Uu-Gb-All"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="Cyj-WO-Bsh"/>
+                                    <constraint firstAttribute="width" constant="200" id="SdL-n3-BQQ"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="3AM-ez-yEl"/>
+                                        <exclude reference="8Uu-Gb-All"/>
+                                        <exclude reference="Cyj-WO-Bsh"/>
+                                        <exclude reference="SdL-n3-BQQ"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="3AM-ez-yEl"/>
+                                        <include reference="8Uu-Gb-All"/>
+                                        <include reference="Cyj-WO-Bsh"/>
+                                        <include reference="SdL-n3-BQQ"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="vwZ-c8-dAk" secondAttribute="centerX" id="5sd-AN-Clg"/>
+                            <constraint firstAttribute="centerX" secondItem="vwZ-c8-dAk" secondAttribute="centerX" id="6EN-QP-X80"/>
+                            <constraint firstAttribute="centerY" secondItem="vwZ-c8-dAk" secondAttribute="centerY" id="Oyd-uV-dpS"/>
+                            <constraint firstAttribute="centerY" secondItem="vwZ-c8-dAk" secondAttribute="centerY" id="qwz-iF-fLT"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="vwZ-c8-dAk"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="5sd-AN-Clg"/>
+                                <exclude reference="6EN-QP-X80"/>
+                                <exclude reference="Oyd-uV-dpS"/>
+                                <exclude reference="qwz-iF-fLT"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="vwZ-c8-dAk"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="5sd-AN-Clg"/>
+                                <include reference="6EN-QP-X80"/>
+                                <include reference="Oyd-uV-dpS"/>
+                                <include reference="qwz-iF-fLT"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="layerView" destination="vwZ-c8-dAk" id="TIg-aE-bLn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qob-iZ-YEa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2190" y="338.25"/>
         </scene>
     </scenes>
 </document>
