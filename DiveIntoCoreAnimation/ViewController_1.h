@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ViewController_1.h
 //  DiveIntoCoreAnimation
 //
 //  Created by ZQP on 15/8/4.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController_1 : UIViewController
 
 
 @end
