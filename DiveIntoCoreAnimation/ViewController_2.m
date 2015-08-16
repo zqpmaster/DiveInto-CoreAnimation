@@ -19,6 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     CALayer *layer = [CALayer layer];
     layer.frame = CGRectMake(50, 50, 100, 100);
     layer.backgroundColor = [UIColor blueColor].CGColor;

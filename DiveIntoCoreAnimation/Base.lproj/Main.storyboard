@@ -78,6 +78,7 @@
                         <viewControllerLayoutGuide type="bottom" id="ecF-A2-15g"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="W8o-zH-dSN">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZmH-jW-vw7">
@@ -159,14 +160,14 @@
                                 <exclude reference="JBV-rG-brZ"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="TdO-it-dXj"/>
-                                <exclude reference="xAJ-es-NYj"/>
-                                <exclude reference="YGd-q9-jef"/>
+                                <exclude reference="Eus-PM-v8R"/>
                                 <exclude reference="0EK-Wo-nTf"/>
                                 <exclude reference="WVr-1Z-JOq"/>
                                 <exclude reference="XMI-6a-t6g"/>
                                 <exclude reference="buC-9h-Cbu"/>
-                                <exclude reference="Eus-PM-v8R"/>
+                                <exclude reference="YGd-q9-jef"/>
+                                <exclude reference="TdO-it-dXj"/>
+                                <exclude reference="xAJ-es-NYj"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -176,14 +177,14 @@
                                 <include reference="JBV-rG-brZ"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="TdO-it-dXj"/>
-                                <include reference="xAJ-es-NYj"/>
-                                <include reference="YGd-q9-jef"/>
+                                <include reference="Eus-PM-v8R"/>
                                 <include reference="0EK-Wo-nTf"/>
                                 <include reference="WVr-1Z-JOq"/>
                                 <include reference="XMI-6a-t6g"/>
                                 <include reference="buC-9h-Cbu"/>
-                                <include reference="Eus-PM-v8R"/>
+                                <include reference="YGd-q9-jef"/>
+                                <include reference="TdO-it-dXj"/>
+                                <include reference="xAJ-es-NYj"/>
                             </mask>
                         </variation>
                     </view>
@@ -204,11 +205,32 @@
                         <viewControllerLayoutGuide type="bottom" id="wxw-av-Z9g"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="uXk-FN-g3t">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gQJ-QA-qpO">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="72r-Ei-Zaq"/>
+                                    <constraint firstAttribute="width" constant="200" id="glN-np-XWC"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="72r-Ei-Zaq"/>
+                                        <exclude reference="glN-np-XWC"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="72r-Ei-Zaq"/>
+                                        <include reference="glN-np-XWC"/>
+                                    </mask>
+                                </variation>
+                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vwZ-c8-dAk">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="0.1247097506" blue="0.3327318702" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="200" id="3AM-ez-yEl"/>
                                     <constraint firstAttribute="height" constant="200" id="8Uu-Gb-All"/>
@@ -237,14 +259,19 @@
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="vwZ-c8-dAk" secondAttribute="centerX" id="5sd-AN-Clg"/>
                             <constraint firstAttribute="centerX" secondItem="vwZ-c8-dAk" secondAttribute="centerX" id="6EN-QP-X80"/>
+                            <constraint firstAttribute="centerX" secondItem="gQJ-QA-qpO" secondAttribute="centerX" constant="-50" id="J2l-oz-NaF"/>
                             <constraint firstAttribute="centerY" secondItem="vwZ-c8-dAk" secondAttribute="centerY" id="Oyd-uV-dpS"/>
+                            <constraint firstAttribute="centerY" secondItem="gQJ-QA-qpO" secondAttribute="centerY" constant="-50" id="cO6-4m-DFy"/>
                             <constraint firstAttribute="centerY" secondItem="vwZ-c8-dAk" secondAttribute="centerY" id="qwz-iF-fLT"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
+                                <exclude reference="gQJ-QA-qpO"/>
                                 <exclude reference="vwZ-c8-dAk"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="J2l-oz-NaF"/>
+                                <exclude reference="cO6-4m-DFy"/>
                                 <exclude reference="5sd-AN-Clg"/>
                                 <exclude reference="6EN-QP-X80"/>
                                 <exclude reference="Oyd-uV-dpS"/>
@@ -253,9 +280,12 @@
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
+                                <include reference="gQJ-QA-qpO"/>
                                 <include reference="vwZ-c8-dAk"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="J2l-oz-NaF"/>
+                                <include reference="cO6-4m-DFy"/>
                                 <include reference="5sd-AN-Clg"/>
                                 <include reference="6EN-QP-X80"/>
                                 <include reference="Oyd-uV-dpS"/>
@@ -264,6 +294,7 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="greenView" destination="gQJ-QA-qpO" id="ZOr-uT-XgG"/>
                         <outlet property="layerView" destination="vwZ-c8-dAk" id="TIg-aE-bLn"/>
                     </connections>
                 </viewController>
