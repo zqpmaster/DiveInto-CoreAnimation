@@ -34,6 +34,8 @@
 //    content contenGravity contentScale
     self.layerView.layer.contents = (__bridge id)([UIImage imageNamed:@"wwdc.png"].CGImage);
     self.layerView.layer.contentsGravity = kCAGravityCenter;//此属性被设置后很多属性都不管用了 默认应该为Resize
+    //这个属性必须配合重心属性，不然不起作用
+    
     self.layerView.layer.contentsScale = [UIScreen mainScreen].scale;
 //    self.layerView.layer.masksToBounds = YES;
     

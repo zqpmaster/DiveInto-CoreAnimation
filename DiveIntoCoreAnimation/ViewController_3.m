@@ -19,8 +19,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.greenView.layer.zPosition += 1;//Z坐标轴
-
+    self.greenView.layer.zPosition += 1;//Z坐标轴 改了之后绘制的层级会变，但是逻辑层级不会变。
+    
+    
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(50, 50, 100, 100)];
+    view.backgroundColor = [UIColor blackColor];
+    [self.view addSubview:view];
+    view.center = CGPointZero;//通过center更改frame
+    
     
     self.layerView.backgroundColor = [UIColor clearColor];
     self.layerView.layer.contents = (__bridge id)([UIImage imageNamed:@"arrow.png"].CGImage);
