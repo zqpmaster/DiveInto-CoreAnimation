@@ -10,6 +10,9 @@
 		2754DECA1B821FD9006C5D98 /* ViewController_4.m in Sources */ = {isa = PBXBuildFile; fileRef = 2754DEC91B821FD9006C5D98 /* ViewController_4.m */; };
 		278414671B8F56E100A7DA19 /* ViewController_5.m in Sources */ = {isa = PBXBuildFile; fileRef = 278414651B8F56E100A7DA19 /* ViewController_5.m */; };
 		278414681B8F56E100A7DA19 /* ViewController_5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 278414661B8F56E100A7DA19 /* ViewController_5.xib */; };
+		2784146D1B91AF4E00A7DA19 /* ViewController_6.m in Sources */ = {isa = PBXBuildFile; fileRef = 2784146B1B91AF4E00A7DA19 /* ViewController_6.m */; };
+		2784146E1B91AF4E00A7DA19 /* ViewController_6.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2784146C1B91AF4E00A7DA19 /* ViewController_6.xib */; };
+		278414711B92E52400A7DA19 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278414701B92E52400A7DA19 /* QuartzCore.framework */; };
 		27F324111B710462002B66D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F324101B710462002B66D3 /* main.m */; };
 		27F324141B710462002B66D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F324131B710462002B66D3 /* AppDelegate.m */; };
 		27F324171B710462002B66D3 /* ViewController_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F324161B710462002B66D3 /* ViewController_1.m */; };
@@ -39,6 +42,10 @@
 		278414641B8F56E100A7DA19 /* ViewController_5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController_5.h; sourceTree = "<group>"; };
 		278414651B8F56E100A7DA19 /* ViewController_5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController_5.m; sourceTree = "<group>"; };
 		278414661B8F56E100A7DA19 /* ViewController_5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_5.xib; sourceTree = "<group>"; };
+		2784146A1B91AF4E00A7DA19 /* ViewController_6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController_6.h; sourceTree = "<group>"; };
+		2784146B1B91AF4E00A7DA19 /* ViewController_6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController_6.m; sourceTree = "<group>"; };
+		2784146C1B91AF4E00A7DA19 /* ViewController_6.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_6.xib; sourceTree = "<group>"; };
+		278414701B92E52400A7DA19 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		27F3240B1B710462002B66D3 /* DiveIntoCoreAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiveIntoCoreAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27F3240F1B710462002B66D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27F324101B710462002B66D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -65,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				278414711B92E52400A7DA19 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,9 +105,20 @@
 			name = "5-变换";
 			sourceTree = "<group>";
 		};
+		2784146F1B91AF5200A7DA19 /* 6-专有图层 */ = {
+			isa = PBXGroup;
+			children = (
+				2784146A1B91AF4E00A7DA19 /* ViewController_6.h */,
+				2784146B1B91AF4E00A7DA19 /* ViewController_6.m */,
+				2784146C1B91AF4E00A7DA19 /* ViewController_6.xib */,
+			);
+			name = "6-专有图层";
+			sourceTree = "<group>";
+		};
 		27F324021B710462002B66D3 = {
 			isa = PBXGroup;
 			children = (
+				278414701B92E52400A7DA19 /* QuartzCore.framework */,
 				27F3240D1B710462002B66D3 /* DiveIntoCoreAnimation */,
 				27F324271B710463002B66D3 /* DiveIntoCoreAnimationTests */,
 				27F3240C1B710462002B66D3 /* Products */,
@@ -118,6 +137,7 @@
 		27F3240D1B710462002B66D3 /* DiveIntoCoreAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				2784146F1B91AF5200A7DA19 /* 6-专有图层 */,
 				278414691B8F56EA00A7DA19 /* 5-变换 */,
 				2754DEC71B821FBE006C5D98 /* 4-视觉效果 */,
 				27F3243E1B7601D4002B66D3 /* 3-图层几何学 */,
@@ -272,6 +292,7 @@
 				27F3243D1B75EB61002B66D3 /* wwdc.png in Resources */,
 				278414681B8F56E100A7DA19 /* ViewController_5.xib in Resources */,
 				27F3241A1B710462002B66D3 /* Main.storyboard in Resources */,
+				2784146E1B91AF4E00A7DA19 /* ViewController_6.xib in Resources */,
 				27F3241F1B710462002B66D3 /* LaunchScreen.xib in Resources */,
 				27F3241C1B710462002B66D3 /* Images.xcassets in Resources */,
 			);
@@ -292,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27F324411B760207002B66D3 /* ViewController_3.m in Sources */,
+				2784146D1B91AF4E00A7DA19 /* ViewController_6.m in Sources */,
 				27F324171B710462002B66D3 /* ViewController_1.m in Sources */,
 				278414671B8F56E100A7DA19 /* ViewController_5.m in Sources */,
 				27F324141B710462002B66D3 /* AppDelegate.m in Sources */,

@@ -90,7 +90,7 @@
 {
     //add lighting layer
     CALayer *layer = [CALayer layer];
-    layer.frame = face.bounds;
+    layer.frame = CGRectMake(0, 0, 200, 200);
     [face addSublayer:layer];
     //convert the face transform to matrix
     //(GLKMatrix4 has the same structure as CATransform3D)
