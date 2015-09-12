@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2743FB1C1BA4185C007B9089 /* ViewController_8.m in Sources */ = {isa = PBXBuildFile; fileRef = 2743FB1A1BA4185C007B9089 /* ViewController_8.m */; };
+		2743FB1D1BA4185C007B9089 /* ViewController_8.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2743FB1B1BA4185C007B9089 /* ViewController_8.xib */; };
 		2754DECA1B821FD9006C5D98 /* ViewController_4.m in Sources */ = {isa = PBXBuildFile; fileRef = 2754DEC91B821FD9006C5D98 /* ViewController_4.m */; };
 		278414671B8F56E100A7DA19 /* ViewController_5.m in Sources */ = {isa = PBXBuildFile; fileRef = 278414651B8F56E100A7DA19 /* ViewController_5.m */; };
 		278414681B8F56E100A7DA19 /* ViewController_5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 278414661B8F56E100A7DA19 /* ViewController_5.xib */; };
@@ -39,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2743FB191BA4185C007B9089 /* ViewController_8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController_8.h; sourceTree = "<group>"; };
+		2743FB1A1BA4185C007B9089 /* ViewController_8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController_8.m; sourceTree = "<group>"; };
+		2743FB1B1BA4185C007B9089 /* ViewController_8.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_8.xib; sourceTree = "<group>"; };
 		2754DEC81B821FD9006C5D98 /* ViewController_4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController_4.h; sourceTree = "<group>"; };
 		2754DEC91B821FD9006C5D98 /* ViewController_4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController_4.m; sourceTree = "<group>"; };
 		278414641B8F56E100A7DA19 /* ViewController_5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController_5.h; sourceTree = "<group>"; };
@@ -91,6 +96,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2743FB181BA41838007B9089 /* 8-显示动画 */ = {
+			isa = PBXGroup;
+			children = (
+				2743FB191BA4185C007B9089 /* ViewController_8.h */,
+				2743FB1A1BA4185C007B9089 /* ViewController_8.m */,
+				2743FB1B1BA4185C007B9089 /* ViewController_8.xib */,
+			);
+			name = "8-显示动画";
+			sourceTree = "<group>";
+		};
+		2743FB1E1BA41864007B9089 /* 7-隐式动画 */ = {
+			isa = PBXGroup;
+			children = (
+				278414721B996F7400A7DA19 /* ViewController_7.h */,
+				278414731B996F7400A7DA19 /* ViewController_7.m */,
+				278414741B996F7400A7DA19 /* ViewController_7.xib */,
+			);
+			name = "7-隐式动画";
+			sourceTree = "<group>";
+		};
 		2754DEC71B821FBE006C5D98 /* 4-视觉效果 */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,9 +167,8 @@
 		27F3240D1B710462002B66D3 /* DiveIntoCoreAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				278414721B996F7400A7DA19 /* ViewController_7.h */,
-				278414731B996F7400A7DA19 /* ViewController_7.m */,
-				278414741B996F7400A7DA19 /* ViewController_7.xib */,
+				2743FB1E1BA41864007B9089 /* 7-隐式动画 */,
+				2743FB181BA41838007B9089 /* 8-显示动画 */,
 				2784146F1B91AF5200A7DA19 /* 6-专有图层 */,
 				278414691B8F56EA00A7DA19 /* 5-变换 */,
 				2754DEC71B821FBE006C5D98 /* 4-视觉效果 */,
@@ -301,6 +325,7 @@
 				278414761B996F7400A7DA19 /* ViewController_7.xib in Resources */,
 				278414681B8F56E100A7DA19 /* ViewController_5.xib in Resources */,
 				27F3241A1B710462002B66D3 /* Main.storyboard in Resources */,
+				2743FB1D1BA4185C007B9089 /* ViewController_8.xib in Resources */,
 				2784146E1B91AF4E00A7DA19 /* ViewController_6.xib in Resources */,
 				27F3241F1B710462002B66D3 /* LaunchScreen.xib in Resources */,
 				27F3241C1B710462002B66D3 /* Images.xcassets in Resources */,
@@ -326,6 +351,7 @@
 				2784146D1B91AF4E00A7DA19 /* ViewController_6.m in Sources */,
 				27F324171B710462002B66D3 /* ViewController_1.m in Sources */,
 				278414671B8F56E100A7DA19 /* ViewController_5.m in Sources */,
+				2743FB1C1BA4185C007B9089 /* ViewController_8.m in Sources */,
 				27F324141B710462002B66D3 /* AppDelegate.m in Sources */,
 				2754DECA1B821FD9006C5D98 /* ViewController_4.m in Sources */,
 				27F324111B710462002B66D3 /* main.m in Sources */,
