@@ -10,6 +10,7 @@
 #import "ViewController_5.h"
 #import "ViewController_6.h"
 #import "ViewController_7.h"
+#import "ViewController_8.h"
 
 @interface AppDelegate ()
 
@@ -20,7 +21,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    ViewController_7 *vc = [[ViewController_7 alloc] initWithNibName:@"ViewController_7" bundle:[NSBundle mainBundle]];
+    ViewController_8 *vc = [[ViewController_8 alloc] initWithNibName:@"ViewController_8" bundle:[NSBundle mainBundle]];
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
