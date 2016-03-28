@@ -124,6 +124,9 @@
 		2743FB291BA9AB3E007B9089 /* 9-图层时间 */ = {
 			isa = PBXGroup;
 			children = (
+				2743FB241BA9AA08007B9089 /* ViewController_9.h */,
+				2743FB251BA9AA08007B9089 /* ViewController_9.m */,
+				2743FB261BA9AA08007B9089 /* ViewController_9.xib */,
 			);
 			name = "9-图层时间";
 			sourceTree = "<group>";
@@ -180,21 +183,18 @@
 			isa = PBXGroup;
 			children = (
 				2743FB291BA9AB3E007B9089 /* 9-图层时间 */,
-				2743FB241BA9AA08007B9089 /* ViewController_9.h */,
-				2743FB251BA9AA08007B9089 /* ViewController_9.m */,
-				2743FB261BA9AA08007B9089 /* ViewController_9.xib */,
-				2743FB1E1BA41864007B9089 /* 7-隐式动画 */,
 				2743FB181BA41838007B9089 /* 8-显示动画 */,
+				2743FB1E1BA41864007B9089 /* 7-隐式动画 */,
 				2784146F1B91AF5200A7DA19 /* 6-专有图层 */,
 				278414691B8F56EA00A7DA19 /* 5-变换 */,
 				2754DEC71B821FBE006C5D98 /* 4-视觉效果 */,
 				27F3243E1B7601D4002B66D3 /* 3-图层几何学 */,
-				27F3243C1B75EB61002B66D3 /* wwdc.png */,
-				27F324421B7602F7002B66D3 /* arrow.png */,
 				27F324381B75E66B002B66D3 /* 2-寄宿图 */,
 				27F324341B710848002B66D3 /* 1-图层树 */,
 				27F324121B710462002B66D3 /* AppDelegate.h */,
 				27F324131B710462002B66D3 /* AppDelegate.m */,
+				27F3243C1B75EB61002B66D3 /* wwdc.png */,
+				27F324421B7602F7002B66D3 /* arrow.png */,
 				27F324181B710462002B66D3 /* Main.storyboard */,
 				27F3241B1B710462002B66D3 /* Images.xcassets */,
 				27F3241D1B710462002B66D3 /* LaunchScreen.xib */,
@@ -501,6 +501,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DiveIntoCoreAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.max.DiveIntoCoreAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -511,6 +512,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DiveIntoCoreAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.max.DiveIntoCoreAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
