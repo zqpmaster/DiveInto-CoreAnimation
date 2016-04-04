@@ -1,5 +1,6 @@
 # DiveInto-CoreAnimation
-Dive into Core Animation
+
+[![Build Status](https://travis-ci.org/zqpmaster/DiveInto-CoreAnimation.svg?branch=master)](https://travis-ci.org/zqpmaster/DiveInto-CoreAnimation)
 
 Demo of iOS-Core-Animation-Advanced-Techniques
 
